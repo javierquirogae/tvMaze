@@ -28,7 +28,7 @@ async function getShowsByTerm(term) {
       id: show.id,
       name: show.name,
       summary: show.summary,
-      image: show.image ? show.image.medium : MISSING_IMAGE_URL,
+      image: show.image ? show.image.medium : MISSING_IMAGE_URL
     };
   });
 }
